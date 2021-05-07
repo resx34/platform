@@ -1,11 +1,16 @@
+import React from 'react';
 import './App.css';
+import ButtonAppBar from './components/AppBar/ButtonAppBar' 
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
+
+const App = ({ children }) => (
+  <>
+    <ButtonAppBar/>
+    {children}
+    <div className="container"></div>
+  </>
+
+);
+
 
 export default App;
