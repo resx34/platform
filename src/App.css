@@ -20,7 +20,29 @@ a {
 
 .active-tab-description {
   width: 800px;
-  height: 300px;
+  height: 250px;
   overflow-y: scroll;
+
+}
+
+.active-tab-test {
+  width: 800px;
+  height: 250px;
+  padding: 0 0 10px 10px;
+  margin-bottom: 15px;
+  /* border: 1px solid rgb(139, 139, 139); */
+  border-radius: 20px;
+  box-shadow: 5px 8px 11px 3px rgba(208, 208, 208, 0.62);
+}
+
+
+.active-tab-test .text {
+  display: none;
+
+}
+
+.active-tab-description .test {
+  display: none;
+
 }
 

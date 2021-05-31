@@ -70,10 +70,10 @@ export default function VerticalTabs() {
         aria-label="Vertical tabs example"
         className={classes.tabs}
       >
-        <Tab label="Монтаж AHD видеокамер" {...a11yProps(0)} />
-        <Tab label="Настройка AHD видеокамер" {...a11yProps(1)} />
-        <Tab label="Монтаж Ip видеокамер" {...a11yProps(2)} />
-        <Tab label="Настройка IP видеокамер" {...a11yProps(3)} />
+        <Tab label="Монтаж Ip видеокамер" {...a11yProps(0)} />
+        <Tab label="Настройка IP видеокамер" {...a11yProps(1)} />
+        <Tab label="Монтаж AHD видеокамер" {...a11yProps(2)} />
+        <Tab label="Настройка AHD видеокамер" {...a11yProps(3)} />
         <Tab label="Сборка регистраторов" {...a11yProps(4)} />
         <Tab label="Правила монтажа кабелей" {...a11yProps(5)} />
         <Tab label="Монтаж видеодомофонов" {...a11yProps(6)} />

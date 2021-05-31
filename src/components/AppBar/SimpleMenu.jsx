@@ -29,7 +29,7 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose} color="inherit"> 
+        <MenuItem onClick={handleClose} > 
             <Link to='/' >Главная</Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
