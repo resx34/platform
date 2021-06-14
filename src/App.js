@@ -5,11 +5,9 @@ import ButtonAppBar from './components/AppBar/ButtonAppBar';
 
 const App = ({ children }) => (
   <>
-
     <ButtonAppBar/>
     {children}
     <div className="container"></div>
-
   </>
 
 );
